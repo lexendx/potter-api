@@ -29,9 +29,9 @@ function Character() {
 
 
   return (
-    <div className='character-div w-[100vw] ml-[-30px] mb-[-20px] h-auto'>
+    <div className='character-div  ml-[-30px] mb-[-20px] h-auto'>
       <Link to="/character">
-        <p className="text-2xl font-bold pt-5 text-white">Characters In Harry Potter Series</p>
+        <p className=" font-bold pt-5 ml-[500px] text-4xl text-white">Characters In Harry Potter Series</p>
       </Link>
       <div className='grid grid-cols-3 w-[900px] mx-auto  mt-5 gap-7'>
         {loading ? (

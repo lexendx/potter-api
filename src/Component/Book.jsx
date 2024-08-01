@@ -41,9 +41,9 @@ function Book() {
 
 
   return (
-    <div className='main-div w-[100vw] ml-[-30px] mb-[-20px] h-auto'>
+    <div className='main-div  ml-[-30px] mb-[-20px] h-auto'>
       <Link to="/">
-        <p className="text-2xl font-bold text-black pt-5">Books of Harry Potter Series</p>
+        <p className="text-4xl font-bold ml-[500px] text-black pt-5">Books of Harry Potter Series</p>
       </Link>
       <div className='grid grid-cols-2 w-[700px] mx-auto  mt-5 gap-7'>
         {loading ? (

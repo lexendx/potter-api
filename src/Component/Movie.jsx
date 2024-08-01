@@ -43,11 +43,11 @@ function Movie() {
     console.log(post)
   
     return (
-      <div className='movie-div w-[100vw] ml-[-30px] mb-[-20px] '>
+      <div className='movie-div  ml-[-30px] mb-[-20px] '>
 
 
         <Link to="/movie">
-          <p className="text-2xl font-bold pt-4">Movies & Directors of Harry Potter Series</p>
+          <p className=" font-bold ml-[500px] text-4xl pt-4">Movies & Directors of Harry Potter Series</p>
         </Link>
 
 

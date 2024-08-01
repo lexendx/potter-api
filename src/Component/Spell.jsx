@@ -26,9 +26,9 @@ function Spell() {
   }, []);
 
   return (
-    <div className='spell-div w-[100vw] ml-[-30px] mb-[-20px] h-auto'>
+    <div className='spell-div  ml-[-30px] mb-[-20px] h-auto'>
       <Link to="/character">
-        <p className="text-2xl font-bold pt-5">Powers Of All Characters</p>
+        <p className="text-4xl  ml-[500px] font-bold pt-5">Powers Of All Characters</p>
       </Link>
       <div className='grid grid-cols-3 w-[900px] mx-auto  mt-5 gap-7'>
         {loading ? (
