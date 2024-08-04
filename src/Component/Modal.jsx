@@ -5,16 +5,15 @@ import { useState,useEffect } from 'react';
 
 function Modal(props) {
  
-    // whole page is act as an document like dom and css apply ke lie style tag ka use
+   
     useEffect (()=> {
 
-        // when modal opens then stop the scrooling 
         document.body.style.overflowY = "hidden";
         document.body.style.overflowX = "hidden";
 
         return () => {
 
-            // when modal close return to its original ponsn
+         
             document.body.style.overflowY = "scroll";
             document.body.style.overflowX = "scroll";
         }
